@@ -438,7 +438,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 176.53 104.14 0)
+		(at 175.26 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -449,7 +449,7 @@
 		(fields_autoplaced yes)
 		(uuid "fdc27092-2081-4334-a729-7cd1addbff27")
 		(property "Reference" "D1"
-			(at 174.9425 97.79 0)
+			(at 173.6725 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -459,7 +459,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 174.9425 100.33 0)
+			(at 173.6725 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -469,7 +469,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 104.14 0)
+			(at 175.26 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -480,7 +480,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 104.14 0)
+			(at 175.26 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -491,7 +491,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 176.53 104.14 0)
+			(at 175.26 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -502,7 +502,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 176.53 104.14 0)
+			(at 175.26 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
