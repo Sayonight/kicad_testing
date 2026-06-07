@@ -354,6 +354,36 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 130.81 101.6) (xy 160.02 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45a55267-4d5b-4d76-aeac-12ad2c4113ff")
+	)
+	(wire
+		(pts
+			(xy 93.98 97.79) (xy 130.81 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90060bc1-fff5-458f-ba61-9ca4a9117810")
+	)
+	(wire
+		(pts
+			(xy 130.81 97.79) (xy 130.81 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd39fdd5-99eb-4d30-8e00-3e441ef58762")
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 93.98 101.6 0)
@@ -438,7 +468,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 175.26 76.2 0)
+		(at 163.83 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -449,7 +479,7 @@
 		(fields_autoplaced yes)
 		(uuid "fdc27092-2081-4334-a729-7cd1addbff27")
 		(property "Reference" "D1"
-			(at 173.6725 69.85 0)
+			(at 162.2425 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -459,7 +489,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 173.6725 72.39 0)
+			(at 162.2425 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -469,7 +499,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 76.2 0)
+			(at 163.83 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -480,7 +510,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 76.2 0)
+			(at 163.83 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -491,7 +521,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 175.26 76.2 0)
+			(at 163.83 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -502,7 +532,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 175.26 76.2 0)
+			(at 163.83 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
