@@ -389,7 +389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43495333-267f-4edb-97f3-2ff1d91c31db")
-		(property "Reference" "D1"
+		(property "Reference" "DE"
 			(at 103.8225 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -399,7 +399,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEEED"
 			(at 103.8225 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -462,7 +462,7 @@
 		(instances
 			(project "test"
 				(path "/d188607b-07b7-4bdd-b2bb-7815ace5362f"
-					(reference "D1")
+					(reference "DE")
 					(unit 1)
 				)
 			)
@@ -480,7 +480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f98a14d6-93a5-49ce-ba91-0f9ab75501b5")
-		(property "Reference" "R1"
+		(property "Reference" "REEFF"
 			(at 57.15 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -544,7 +544,7 @@
 		(instances
 			(project "test"
 				(path "/d188607b-07b7-4bdd-b2bb-7815ace5362f"
-					(reference "R1")
+					(reference "REEFF")
 					(unit 1)
 				)
 			)
