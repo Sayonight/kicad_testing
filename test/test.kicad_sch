@@ -4,6 +4,13 @@
 	(generator_version "10.0")
 	(uuid "d188607b-07b7-4bdd-b2bb-7815ace5362f")
 	(paper "A4")
+	(title_block
+		(title "Das beste Schema")
+		(date "2026-06-07")
+		(rev "v1")
+		(company "SELAB Corps.")
+		(comment 1 "Kein kommentar 1")
+	)
 	(lib_symbols
 		(symbol "Device:LED"
 			(pin_numbers
