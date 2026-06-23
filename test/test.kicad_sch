@@ -7,6 +7,17 @@
 	(title_block
 		(title "Titelll !")
 		(date "2026-06-23")
+		(rev "REv +1")
+		(company "firma ")
+		(comment 1 "comment 1")
+		(comment 2 "comment 2")
+		(comment 3 "comment 3")
+		(comment 4 "comment 4")
+		(comment 5 "comment 5")
+		(comment 6 "comment 6")
+		(comment 7 "comment 7")
+		(comment 8 "comment 8")
+		(comment 9 "comment 9")
 	)
 	(lib_symbols
 		(symbol "Device:LED"
