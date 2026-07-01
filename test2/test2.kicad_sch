@@ -357,36 +357,16 @@
 			(embedded_fonts no)
 		)
 	)
-	(wire
-		(pts
-			(xy 106.68 118.11) (xy 144.78 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "026614d1-3ae0-4316-9806-cb6ec8d0eebe")
-	)
-	(wire
-		(pts
-			(xy 144.78 118.11) (xy 144.78 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1313a0ec-971a-4161-8a97-feacdddfa221")
-	)
 	(symbol
 		(lib_id "Device:R")
 		(at 144.78 85.09 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "215d8e52-5a65-4257-a8b4-1ef8bb000ac8")
 		(property "Reference" "R600"
@@ -489,7 +469,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Battery:BatteryClip_Keystone_54_D16-19mm"
 			(at 102.87 118.11 0)
 			(hide yes)
 			(show_name no)
