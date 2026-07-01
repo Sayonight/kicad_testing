@@ -357,6 +357,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 109.22 90.17) (xy 144.78 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "026614d1-3ae0-4316-9806-cb6ec8d0eebe")
+	)
+	(wire
+		(pts
+			(xy 144.78 88.9) (xy 144.78 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1313a0ec-971a-4161-8a97-feacdddfa221")
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 144.78 85.09 0)
