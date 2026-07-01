@@ -389,7 +389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "215d8e52-5a65-4257-a8b4-1ef8bb000ac8")
-		(property "Reference" "R1"
+		(property "Reference" "R600"
 			(at 144.78 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -451,7 +451,7 @@
 		(instances
 			(project "test2"
 				(path "/a16b2917-54e0-4f71-a869-9bcc0622af1e"
-					(reference "R1")
+					(reference "R600")
 					(unit 1)
 				)
 			)
@@ -469,7 +469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ca88440-4791-4e40-9dfd-1a43c31df560")
-		(property "Reference" "D1"
+		(property "Reference" "RLED1"
 			(at 101.2825 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -479,7 +479,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "LEDD"
 			(at 101.2825 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -542,7 +542,7 @@
 		(instances
 			(project "test2"
 				(path "/a16b2917-54e0-4f71-a869-9bcc0622af1e"
-					(reference "D1")
+					(reference "RLED1")
 					(unit 1)
 				)
 			)
