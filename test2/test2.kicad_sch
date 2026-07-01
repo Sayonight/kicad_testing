@@ -359,7 +359,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 90.17) (xy 144.78 90.17)
+			(xy 106.68 118.11) (xy 144.78 118.11)
 		)
 		(stroke
 			(width 0)
@@ -369,7 +369,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 88.9) (xy 144.78 90.17)
+			(xy 144.78 118.11) (xy 144.78 88.9)
 		)
 		(stroke
 			(width 0)
@@ -379,7 +379,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 144.78 85.09 0)
+		(at 144.78 85.09 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -390,29 +390,27 @@
 		(fields_autoplaced yes)
 		(uuid "215d8e52-5a65-4257-a8b4-1ef8bb000ac8")
 		(property "Reference" "R1"
-			(at 147.32 83.8199 0)
+			(at 144.78 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "R"
-			(at 147.32 86.3599 0)
+			(at 144.78 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 143.002 85.09 90)
+			(at 144.78 83.312 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -461,7 +459,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 105.41 90.17 0)
+		(at 102.87 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -472,7 +470,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ca88440-4791-4e40-9dfd-1a43c31df560")
 		(property "Reference" "D1"
-			(at 103.8225 83.82 0)
+			(at 101.2825 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -482,7 +480,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 103.8225 86.36 0)
+			(at 101.2825 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -492,7 +490,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 90.17 0)
+			(at 102.87 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -503,7 +501,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 90.17 0)
+			(at 102.87 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -514,7 +512,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 105.41 90.17 0)
+			(at 102.87 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -525,7 +523,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 105.41 90.17 0)
+			(at 102.87 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
