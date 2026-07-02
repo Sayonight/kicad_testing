@@ -237,7 +237,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 88.9 94.742 90)
 			(hide yes)
 			(show_name no)
