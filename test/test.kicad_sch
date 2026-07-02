@@ -4,15 +4,6 @@
 	(generator_version "10.0")
 	(uuid "2fe60de8-5e34-47a1-855a-3a2b581508e8")
 	(paper "A4")
-	(title_block
-		(title "TestBoard")
-		(date "2026-07-04")
-		(rev "v2")
-		(company "SELAB")
-		(comment 1 "Wichtige Sachen")
-		(comment 2 "Noch wichtiger ")
-		(comment 6 "am wichtigsten")
-	)
 	(lib_symbols
 		(symbol "Device:R"
 			(pin_numbers
@@ -155,66 +146,16 @@
 			(embedded_fonts no)
 		)
 	)
-	(wire
-		(pts
-			(xy 109.22 77.47) (xy 109.22 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ba96e13-f3fc-42f1-9762-4bc264e86ecc")
-	)
-	(wire
-		(pts
-			(xy 88.9 101.6) (xy 114.3 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35e5c5c3-94db-4b1a-b3af-d0726b013321")
-	)
-	(wire
-		(pts
-			(xy 114.3 101.6) (xy 114.3 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95201090-9ba2-4fc0-8fd4-647e84a94933")
-	)
-	(wire
-		(pts
-			(xy 114.3 77.47) (xy 109.22 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b512ab7c-f052-4d1a-ba88-7cf57f5e0906")
-	)
-	(wire
-		(pts
-			(xy 88.9 100.33) (xy 88.9 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d53dafb7-3729-4b3a-8428-3956b0165cf6")
-	)
 	(symbol
 		(lib_id "Device:R")
 		(at 88.9 96.52 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "861fede0-95df-42f8-8ce7-5f6d819c2673")
 		(property "Reference" "NewRef"
@@ -237,7 +178,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" ""
 			(at 88.9 94.742 90)
 			(hide yes)
 			(show_name no)
