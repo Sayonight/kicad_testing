@@ -7,9 +7,8 @@
 	(title_block
 		(title "BestBoard")
 		(date "2026-07-03")
-		(rev "v1")
-		(company "SELAB INC")
 		(comment 1 "c1")
+		(comment 2 "dsaf")
 	)
 	(lib_symbols
 		(symbol "Device:LED"
@@ -1417,6 +1416,30 @@
 		(color 0 0 0 0)
 		(uuid "330a5948-3de8-4709-84e1-ac119c184514")
 	)
+	(junction
+		(at 171.45 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6137b5a6-e2eb-46f6-a532-2e717a438b9e")
+	)
+	(junction
+		(at 171.45 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78f08a0d-bbf4-49d2-96fb-f5d904f18abb")
+	)
+	(junction
+		(at 171.45 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc8a2be5-18e4-4ea5-8d14-3c6fb5005f27")
+	)
+	(junction
+		(at 171.45 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f02314b4-f43f-4136-b8fb-d56f4796fc7f")
+	)
 	(wire
 		(pts
 			(xy 134.62 129.54) (xy 134.62 66.04)
@@ -1436,6 +1459,26 @@
 			(type default)
 		)
 		(uuid "3514a136-e367-4bb2-8691-805af907ca70")
+	)
+	(wire
+		(pts
+			(xy 171.45 102.87) (xy 171.45 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53d49c69-864b-452d-8d0b-96669365cfcb")
+	)
+	(wire
+		(pts
+			(xy 171.45 100.33) (xy 171.45 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55df1d43-5197-40cd-94af-bf3bd3b8b881")
 	)
 	(wire
 		(pts
@@ -1469,13 +1512,23 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 106.68) (xy 171.45 107.95)
+			(xy 171.45 93.98) (xy 171.45 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9f219c57-f67c-4ee8-a2eb-40d8ae1392bf")
+	)
+	(wire
+		(pts
+			(xy 171.45 95.25) (xy 171.45 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b28cb2f4-7667-4b87-80da-2f04e2a8ac54")
 	)
 	(wire
 		(pts
@@ -1499,7 +1552,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 106.68) (xy 171.45 106.68)
+			(xy 171.45 97.79) (xy 171.45 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e847a1db-3bac-47e6-9506-6b5218432a0c")
+	)
+	(wire
+		(pts
+			(xy 24.13 93.98) (xy 171.45 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1513,10 +1576,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b7be7a08-8d72-4acc-b845-044a1cbe389c")
 		(property "Reference" "U1"
@@ -1530,7 +1593,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CHIP-PRO"
+		(property "Value" "CHIP"
 			(at 214.2333 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1754,7 +1817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba245c48-9d40-40dc-b5f2-5688de1eec58")
-		(property "Reference" "D1"
+		(property "Reference" "LedRef"
 			(at 129.2225 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1764,7 +1827,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "100V"
 			(at 129.2225 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1774,7 +1837,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_01005_0402Metric"
+		(property "Footprint" ""
 			(at 130.81 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -1827,7 +1890,7 @@
 		(instances
 			(project "test"
 				(path "/2fe60de8-5e34-47a1-855a-3a2b581508e8"
-					(reference "D1")
+					(reference "LedRef")
 					(unit 1)
 				)
 			)
@@ -1835,7 +1898,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 76.2 102.87 0)
+		(at 24.13 90.17 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1845,30 +1908,28 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f97b0a4d-bf1d-4a2d-aba9-bf32653cded1")
-		(property "Reference" "R1"
-			(at 78.74 101.5999 0)
+		(property "Reference" "REFR"
+			(at 24.13 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "R"
-			(at 78.74 104.1399 0)
+			(at 24.13 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
-			(at 74.422 102.87 90)
+			(at 24.13 88.392 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1879,7 +1940,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 102.87 0)
+			(at 24.13 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1890,7 +1951,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 76.2 102.87 0)
+			(at 24.13 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1909,7 +1970,7 @@
 		(instances
 			(project "test"
 				(path "/2fe60de8-5e34-47a1-855a-3a2b581508e8"
-					(reference "R1")
+					(reference "REFR")
 					(unit 1)
 				)
 			)
