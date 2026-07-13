@@ -1977,8 +1977,8 @@
 		)
 	)
 	(sheet
-		(at 62.23 58.42)
-		(size 12.7 11.43)
+		(at 60.325 36.195)
+		(size 11.43 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1993,7 +1993,7 @@
 		)
 		(uuid "1ed306c7-bec5-4feb-a794-84591e3e6e82")
 		(property "Sheetname" "Untitled Sheet"
-			(at 62.23 57.6957 0)
+			(at 60.325 35.4707 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2004,7 +2004,7 @@
 			)
 		)
 		(property "Sheetfile" "untitled.kicad_sch"
-			(at 62.23 70.4473 0)
+			(at 60.325 49.4923 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2029,7 +2029,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.0508)
 			(type solid)
@@ -2038,8 +2037,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "542199f0-efbd-4d20-ae8c-56bbfc10e8c6")
-		(property "Sheetname" "Untitled Sheet 2"
-			(at 36.83 60.2992 0)
+		(property "Sheetname" "Titled Sheet"
+			(at 25.4 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2049,8 +2048,9 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled2.kicad_sch"
+		(property "Sheetfile" "titled.kicad_sch"
 			(at 36.83 112.2938 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
